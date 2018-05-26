@@ -155,7 +155,7 @@ public protocol TabbedCollectionViewDelegate: class {
         }
     }
     
-    func tabSelected(sender: UIButton) {
+    @objc func tabSelected(sender: UIButton) {
         // Deselect previous tab
         if let previousSelected = tabsScrollView.viewWithTag(selectedTab + buttonTagOffset) as? UIButton {
             previousSelected.isSelected = false
@@ -207,7 +207,7 @@ public protocol TabbedCollectionViewDelegate: class {
         }
         if imageData?.1 != nil {
 //            let url = URL(string: imageData!.1!)
-            cell.imageView.af_setImage(withURL: imageData!.1! as URL)
+//            cell.imageView.af_setImage(withURL: imageData!.1! as URL)
 //            cell.imageView.af_setImageWithURL(imageData!.1!)
         }
         

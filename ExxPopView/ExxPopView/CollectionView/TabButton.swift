@@ -17,7 +17,7 @@ class TabButton: UIButton {
     var selectionColor = UIColor(red:0.9, green:0.36, blue:0.13, alpha:1)
     var titleColor = UIColor.darkText {
         didSet {
-            buildAttributedTitle()
+//            buildAttributedTitle()
         }
     }
     private var title = ""
@@ -28,7 +28,7 @@ class TabButton: UIButton {
         self.title = title
         self.image = image
         super.init(frame: CGRect.zero)
-        buildAttributedTitle()
+//        buildAttributedTitle()
         backgroundColor = bgColor
         tintColor = color
     }
@@ -96,13 +96,94 @@ class TabButton: UIButton {
         }
     }
     
-    func buildAttributedTitle() {
-        let paragraphStyle = NSMutableParagraphStyle()
-        paragraphStyle.alignment = .center
-        paragraphStyle.lineBreakMode = .byTruncatingMiddle
-        let attributes: [String: AnyObject] = [NSForegroundColorAttributeName: titleColor,
-            NSFontAttributeName: UIFont.systemFont(ofSize: 14),
-            NSParagraphStyleAttributeName: paragraphStyle]
-        self.attributedTitle = NSAttributedString(string: title, attributes: attributes)
+//    func buildAttributedTitle() {
+//        let paragraphStyle = NSMutableParagraphStyle()
+//        paragraphStyle.alignment = .center
+//        paragraphStyle.lineBreakMode = .byTruncatingMiddle
+//        let attributes: [String: AnyObject] = [NSForegroundColorAttributeName.rawValue: titleColor,
+//                                               NSFontAttributeName.rawValue: UIFont.systemFont(ofSize: 14),
+//                                               NSParagraphStyleAttributeName.rawValue: paragraphStyle]
+//        self.attributedTitle = NSAttributedString(string: title, attributes: attributes)
+//    }
+}
+
+// MARK: - 形状坐标相关
+extension UIView {
+    
+    var x: CGFloat {
+        set {
+            var frame = self.frame;
+            frame.origin.x = newValue;
+            self.frame = frame;
+        }
+        get {
+            return self.frame.origin.x
+        }
+    }
+    
+    var y: CGFloat {
+        set {
+            var frame = self.frame;
+            frame.origin.y = newValue;
+            self.frame = frame;
+        }
+        get {
+            return self.frame.origin.y
+        }
+    }
+    
+    var centerX: CGFloat {
+        set {
+            var center = self.center;
+            center.x = newValue;
+            self.center = center;
+        }
+        get {
+            return self.center.x
+        }
+    }
+    
+    var centerY: CGFloat {
+        set {
+            var center = self.center;
+            center.y = newValue;
+            self.center = center;
+        }
+        get {
+            return self.center.y
+        }
+    }
+    
+    var width: CGFloat {
+        set {
+            var frame = self.frame;
+            frame.size.width = newValue;
+            self.frame = frame;
+        }
+        get {
+            return self.frame.size.width
+        }
+    }
+    
+    var height: CGFloat {
+        set {
+            var frame = self.frame;
+            frame.size.height = newValue;
+            self.frame = frame;
+        }
+        get {
+            return self.frame.size.height
+        }
+    }
+    
+    var size: CGSize {
+        set {
+            var frame = self.frame;
+            frame.size = newValue;
+            self.frame = frame;
+        }
+        get {
+            return self.frame.size
+        }
     }
 }

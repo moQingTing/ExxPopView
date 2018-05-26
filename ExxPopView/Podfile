@@ -1,0 +1,7 @@
+use_frameworks!
+
+target 'ExxPopView' do
+  pod 'CHSlideSwitchView', :git => 'https://github.com/zhiquan911/CHSlideSwitchView.git', :branch => 'master'
+  # 弹出视图
+  #pod 'MZFormSheetPresentationController'
+end

@@ -14,6 +14,20 @@
 		043E23802005C07F00C79BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043E237E2005C07F00C79BC5 /* LaunchScreen.storyboard */; };
 		043E238B2005C07F00C79BC5 /* ExxPopViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E238A2005C07F00C79BC5 /* ExxPopViewTests.swift */; };
 		043E23962005C07F00C79BC5 /* ExxPopViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E23952005C07F00C79BC5 /* ExxPopViewUITests.swift */; };
+		043E23A52005E22200C79BC5 /* CHSemiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E23A32005E22200C79BC5 /* CHSemiViewController.swift */; };
+		043E23A62005E22200C79BC5 /* UIViewController+CHSemiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E23A42005E22200C79BC5 /* UIViewController+CHSemiViewController.swift */; };
+		043E23B02005E28900C79BC5 /* ItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E23A82005E28900C79BC5 /* ItemInfo.swift */; };
+		043E23B12005E28900C79BC5 /* TabbedCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043E23A92005E28900C79BC5 /* TabbedCollectionView.xib */; };
+		043E23B22005E28900C79BC5 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E23AA2005E28900C79BC5 /* TabButton.swift */; };
+		043E23B32005E28900C79BC5 /* VerticalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E23AB2005E28900C79BC5 /* VerticalFlowLayout.swift */; };
+		043E23B42005E28900C79BC5 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043E23AC2005E28900C79BC5 /* ItemCollectionViewCell.xib */; };
+		043E23B52005E28900C79BC5 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E23AD2005E28900C79BC5 /* ItemCollectionViewCell.swift */; };
+		043E23B62005E28900C79BC5 /* HorizontalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E23AE2005E28900C79BC5 /* HorizontalFlowLayout.swift */; };
+		043E23B72005E28900C79BC5 /* TabbedCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E23AF2005E28900C79BC5 /* TabbedCollectionView.swift */; };
+		043E23B92005EEE100C79BC5 /* SelectExchangeCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E23B82005EEE100C79BC5 /* SelectExchangeCurrencyViewController.swift */; };
+		043E23BC2005FA7500C79BC5 /* ExxMarketCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E23BB2005FA7500C79BC5 /* ExxMarketCollectionView.swift */; };
+		043E23BE2005FA9800C79BC5 /* ExxMarketCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043E23BD2005FA9800C79BC5 /* ExxMarketCollectionView.xib */; };
+		6443659E79146631D253B703 /* Pods_ExxPopView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8931B6F3BEEF1DAB52E38C7E /* Pods_ExxPopView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,22 @@
 		043E23912005C07F00C79BC5 /* ExxPopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExxPopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043E23952005C07F00C79BC5 /* ExxPopViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExxPopViewUITests.swift; sourceTree = "<group>"; };
 		043E23972005C07F00C79BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043E23A32005E22200C79BC5 /* CHSemiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSemiViewController.swift; sourceTree = "<group>"; };
+		043E23A42005E22200C79BC5 /* UIViewController+CHSemiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+CHSemiViewController.swift"; sourceTree = "<group>"; };
+		043E23A82005E28900C79BC5 /* ItemInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemInfo.swift; sourceTree = "<group>"; };
+		043E23A92005E28900C79BC5 /* TabbedCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabbedCollectionView.xib; sourceTree = "<group>"; };
+		043E23AA2005E28900C79BC5 /* TabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		043E23AB2005E28900C79BC5 /* VerticalFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalFlowLayout.swift; sourceTree = "<group>"; };
+		043E23AC2005E28900C79BC5 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		043E23AD2005E28900C79BC5 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		043E23AE2005E28900C79BC5 /* HorizontalFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalFlowLayout.swift; sourceTree = "<group>"; };
+		043E23AF2005E28900C79BC5 /* TabbedCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbedCollectionView.swift; sourceTree = "<group>"; };
+		043E23B82005EEE100C79BC5 /* SelectExchangeCurrencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectExchangeCurrencyViewController.swift; sourceTree = "<group>"; };
+		043E23BB2005FA7500C79BC5 /* ExxMarketCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExxMarketCollectionView.swift; sourceTree = "<group>"; };
+		043E23BD2005FA9800C79BC5 /* ExxMarketCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExxMarketCollectionView.xib; sourceTree = "<group>"; };
+		076535A233572900642A69A3 /* Pods-ExxPopView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExxPopView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExxPopView/Pods-ExxPopView.release.xcconfig"; sourceTree = "<group>"; };
+		8931B6F3BEEF1DAB52E38C7E /* Pods_ExxPopView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExxPopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37D2D3E589D8681F5E24299 /* Pods-ExxPopView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExxPopView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExxPopView/Pods-ExxPopView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6443659E79146631D253B703 /* Pods_ExxPopView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,8 @@
 				043E23892005C07F00C79BC5 /* ExxPopViewTests */,
 				043E23942005C07F00C79BC5 /* ExxPopViewUITests */,
 				043E23732005C07F00C79BC5 /* Products */,
+				C5BE3BC45D3649699B19EFE4 /* Pods */,
+				76E444284A9F2BBF58D426CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +130,13 @@
 		043E23742005C07F00C79BC5 /* ExxPopView */ = {
 			isa = PBXGroup;
 			children = (
+				043E23BA2005FA2E00C79BC5 /* ExxPopView */,
+				043E23A72005E27500C79BC5 /* CollectionView */,
 				043E23752005C07F00C79BC5 /* AppDelegate.swift */,
 				043E23772005C07F00C79BC5 /* ViewController.swift */,
+				043E23B82005EEE100C79BC5 /* SelectExchangeCurrencyViewController.swift */,
+				043E23A32005E22200C79BC5 /* CHSemiViewController.swift */,
+				043E23A42005E22200C79BC5 /* UIViewController+CHSemiViewController.swift */,
 				043E23792005C07F00C79BC5 /* Main.storyboard */,
 				043E237C2005C07F00C79BC5 /* Assets.xcassets */,
 				043E237E2005C07F00C79BC5 /* LaunchScreen.storyboard */,
@@ -125,6 +163,47 @@
 			path = ExxPopViewUITests;
 			sourceTree = "<group>";
 		};
+		043E23A72005E27500C79BC5 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				043E23AE2005E28900C79BC5 /* HorizontalFlowLayout.swift */,
+				043E23AD2005E28900C79BC5 /* ItemCollectionViewCell.swift */,
+				043E23AC2005E28900C79BC5 /* ItemCollectionViewCell.xib */,
+				043E23A82005E28900C79BC5 /* ItemInfo.swift */,
+				043E23AF2005E28900C79BC5 /* TabbedCollectionView.swift */,
+				043E23A92005E28900C79BC5 /* TabbedCollectionView.xib */,
+				043E23AA2005E28900C79BC5 /* TabButton.swift */,
+				043E23AB2005E28900C79BC5 /* VerticalFlowLayout.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		043E23BA2005FA2E00C79BC5 /* ExxPopView */ = {
+			isa = PBXGroup;
+			children = (
+				043E23BB2005FA7500C79BC5 /* ExxMarketCollectionView.swift */,
+				043E23BD2005FA9800C79BC5 /* ExxMarketCollectionView.xib */,
+			);
+			path = ExxPopView;
+			sourceTree = "<group>";
+		};
+		76E444284A9F2BBF58D426CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8931B6F3BEEF1DAB52E38C7E /* Pods_ExxPopView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5BE3BC45D3649699B19EFE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C37D2D3E589D8681F5E24299 /* Pods-ExxPopView.debug.xcconfig */,
+				076535A233572900642A69A3 /* Pods-ExxPopView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043E239A2005C07F00C79BC5 /* Build configuration list for PBXNativeTarget "ExxPopView" */;
 			buildPhases = (
+				F1B1F8F2A2DEB32861360B39 /* [CP] Check Pods Manifest.lock */,
 				043E236E2005C07F00C79BC5 /* Sources */,
 				043E236F2005C07F00C79BC5 /* Frameworks */,
 				043E23702005C07F00C79BC5 /* Resources */,
+				B54A125692EF679491DDFD1C /* [CP] Embed Pods Frameworks */,
+				6D73F74C681F3EE3D8BAA938 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +316,9 @@
 			files = (
 				043E23802005C07F00C79BC5 /* LaunchScreen.storyboard in Resources */,
 				043E237D2005C07F00C79BC5 /* Assets.xcassets in Resources */,
+				043E23B42005E28900C79BC5 /* ItemCollectionViewCell.xib in Resources */,
+				043E23B12005E28900C79BC5 /* TabbedCollectionView.xib in Resources */,
+				043E23BE2005FA9800C79BC5 /* ExxMarketCollectionView.xib in Resources */,
 				043E237B2005C07F00C79BC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +339,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D73F74C681F3EE3D8BAA938 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExxPopView/Pods-ExxPopView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B54A125692EF679491DDFD1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ExxPopView/Pods-ExxPopView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CHSlideSwitchView/CHSlideSwitchView.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHSlideSwitchView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExxPopView/Pods-ExxPopView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1B1F8F2A2DEB32861360B39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExxPopView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		043E236E2005C07F00C79BC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043E23BC2005FA7500C79BC5 /* ExxMarketCollectionView.swift in Sources */,
 				043E23782005C07F00C79BC5 /* ViewController.swift in Sources */,
 				043E23762005C07F00C79BC5 /* AppDelegate.swift in Sources */,
+				043E23B72005E28900C79BC5 /* TabbedCollectionView.swift in Sources */,
+				043E23A62005E22200C79BC5 /* UIViewController+CHSemiViewController.swift in Sources */,
+				043E23B22005E28900C79BC5 /* TabButton.swift in Sources */,
+				043E23A52005E22200C79BC5 /* CHSemiViewController.swift in Sources */,
+				043E23B52005E28900C79BC5 /* ItemCollectionViewCell.swift in Sources */,
+				043E23B92005EEE100C79BC5 /* SelectExchangeCurrencyViewController.swift in Sources */,
+				043E23B62005E28900C79BC5 /* HorizontalFlowLayout.swift in Sources */,
+				043E23B32005E28900C79BC5 /* VerticalFlowLayout.swift in Sources */,
+				043E23B02005E28900C79BC5 /* ItemInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +575,7 @@
 		};
 		043E239B2005C07F00C79BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37D2D3E589D8681F5E24299 /* Pods-ExxPopView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +591,7 @@
 		};
 		043E239C2005C07F00C79BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076535A233572900642A69A3 /* Pods-ExxPopView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -161,7 +161,7 @@ class CHSemiViewController: UIViewController {
     }
     
     
-    func dismissSemi() {
+    @objc func dismissSemi() {
         
         if !self.isShowed {  //显示了就收回
             return
