@@ -13,8 +13,6 @@ class ViewController: UIViewController {
 
     var btnTitle = UIButton()
     
-    var selectCurrencyPopView: SelectExchangeCurrencyViewController?
-    
     @IBOutlet weak var viewTitle: UIView!
     
     override func viewDidLoad() {
@@ -43,21 +41,7 @@ class ViewController: UIViewController {
     }
       //弹出视图
     @objc func showPopView(){
-      print("弹出")
-        if self.selectCurrencyPopView == nil {
-            self.selectCurrencyPopView = SelectExchangeCurrencyViewController()
-            
-            //中国比特币目前只有CNY交易区
-//            let exchangeCurrencySet = CurrencySet.getCurrencySet(self.selectedExchangeType)
-//
-//            selectCurrencyPopView!.exchangeCurrencys.append(exchangeCurrencySet)
-            
-//            selectCurrencyPopView!.delegate = self
-        }
-        
-        selectCurrencyPopView!.sideAnimationDuration = 0.3
-        selectCurrencyPopView!.sideOffset = self.view.bounds.height / 2
-        self.showSemiViewController(semiVC: self.selectCurrencyPopView!, direction: .Up)
+     
     }
     
     

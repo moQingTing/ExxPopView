@@ -1,6 +1,0 @@
-framework module CHSlideSwitchView {
-  umbrella header "CHSlideSwitchView-umbrella.h"
-
-  export *
-  module * { export * }
-}
